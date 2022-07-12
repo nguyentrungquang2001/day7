@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container row">
+    <h1>TO DO LIST</h1>
+    <div class="project col-4">
+    <form action="" method="" class="row container">
+<div class="" style="padding : 0; margin-bottom: 1rem;"><input type="text" class="form-control col-10" name="projectname" id="projectname"></div>
+        <button type="submit" id="addproject" class="btn btn-primary col-7">them</button>
+    </form>
+    <div id="projectlist">
+
+    </div>
+  </div>
+    <div class="fixproject col-8">
+        <div class="addtask">
+            <form action="" method="" class="row container">
+            <div class="col-10"><p>title</p><input type="text" class="form-control " name="taskname" id="taskname"></div>
+            <div class="col-10"><p>day</p><input type="date" class="form-control " name="tasktime" id="tasktime"></div>
+            <div class="col-10">
+              <p>Priority</p>
+              <select name="taskpri" id="taskpri" class="form-control">
+                <option value="normal">0</option>
+                <option value="important">1</option>
+              </select>
+            </div>
+                    <button type="submit" id="addtask" class="btn btn-primary col-2">Add task</button>
+                </form>
+                <h1 style="text-align: center;margin-top: 1rem;">Danh sach</h1>
+                
+                <div id="listTask">
+
+                </div>
+    </div>
+
+    </div>
+  </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
